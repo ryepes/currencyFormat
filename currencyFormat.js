@@ -19,6 +19,6 @@ function currencyFormat(amount, decimals) {
         return partAmount.join('.');
 
     } catch (e) {
-        console.log(e);
+        console.log(e.message);
     }
 }
